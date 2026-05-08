@@ -82,7 +82,7 @@ export default function CommandCenter() {
     <div className="command-center animate-fade-in">
       <div className="command-hero glass-panel">
         <div>
-          <p className="command-eyebrow">Open Source Ready</p>
+          <p className="command-eyebrow">Zyntra Ready</p>
           <h2 className="glow-text">Command Center</h2>
           <p className="subtitle">A searchable command catalog for admins, contributors, and anyone onboarding into the project.</p>
           {usingFallback && (
