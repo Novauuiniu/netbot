@@ -63,7 +63,7 @@ export default function Docs() {
   return (
     <div className="docs-container animate-fade-in">
       <div className="docs-header">
-        <h1 className="glow-text">Zenith <span className="badge">Documentation</span></h1>
+        <h1 className="glow-text">Beta <span className="badge">Documentation</span></h1>
         <p className="subtitle">Everything you need to know about your elite moderation system.</p>
       </div>
 
@@ -81,9 +81,9 @@ export default function Docs() {
                 <p>Developer</p>
               </div>
               <div className="credit-actions">
-                <a href={person.github} target="_blank" rel="noreferrer" className="credit-btn github">
-                  <i className="fa-brands fa-github"></i>
-                  GitHub
+                <a href={person.github} target="_blank" rel="noreferrer" className="credit-btn discord">
+                  <i className="fa-brands fa-discord"></i>
+                  Discord support
                 </a>
                 <a href={person.discord} target="_blank" rel="noreferrer" className="credit-btn discord">
                   <i className="fa-brands fa-discord"></i>
