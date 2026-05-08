@@ -109,7 +109,7 @@ export default function Dashboard() {
               <i className="fa-solid fa-bars"></i>
             </button>
             <div className="topbar-title-wrap">
-              <p className="topbar-eyebrow">Beta Control Surface</p>
+              <p className="topbar-eyebrow">Zyntra Control Surface</p>
               <h1 style={{ margin: 0 }}>{pageTitleMap[activePage] || 'Zenith Dashboard'}</h1>
             </div>
           </div>
