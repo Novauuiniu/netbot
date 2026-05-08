@@ -360,7 +360,7 @@ export default function Overview({ selectedGuild }) {
               </div>
               <div>
                 <h3>AI Server Insights</h3>
-                <p className="ov-subtitle">Powered by Groq AI</p>
+                <p className="ov-subtitle">Powered by AI</p>
               </div>
             </div>
             <button className="ov-ai-btn" onClick={fetchAiAnalysis} disabled={aiLoading}>
@@ -486,7 +486,7 @@ export default function Overview({ selectedGuild }) {
           <div className="ov-chart-header">
             <div>
               <h3>Protection Coverage</h3>
-              <p className="ov-subtitle">How much of Zenith's moderation stack is currently configured</p>
+              <p className="ov-subtitle">How much of Beta moderation stack is currently configured</p>
             </div>
           </div>
           <div className="ov-ai-footer" style={{ marginTop: 0, paddingTop: 0, borderTop: 'none' }}>
