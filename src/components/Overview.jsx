@@ -486,7 +486,7 @@ export default function Overview({ selectedGuild }) {
           <div className="ov-chart-header">
             <div>
               <h3>Protection Coverage</h3>
-              <p className="ov-subtitle">How much of Beta moderation stack is currently configured</p>
+              <p className="ov-subtitle">How much of Zyntra moderation stack is currently configured</p>
             </div>
           </div>
           <div className="ov-ai-footer" style={{ marginTop: 0, paddingTop: 0, borderTop: 'none' }}>
