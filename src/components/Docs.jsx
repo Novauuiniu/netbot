@@ -63,7 +63,7 @@ export default function Docs() {
   return (
     <div className="docs-container animate-fade-in">
       <div className="docs-header">
-        <h1 className="glow-text">Beta <span className="badge">Documentation</span></h1>
+        <h1 className="glow-text">Zyntra <span className="badge">Documentation</span></h1>
         <p className="subtitle">Everything you need to know about your elite moderation system.</p>
       </div>
 
