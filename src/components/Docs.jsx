@@ -6,6 +6,7 @@ export default function Docs() {
       name: 'dotdash_nova',
       avatar: 'https://cdn.discordapp.com/attachments/1498007533263130726/1502700184470290634/vite.svg.png?ex=6a00aa1a&is=69ff589a&hm=1f3a4b524c9013e6716adcc4d93b255d122cf9e41457bf3c74888c9531aa14a8',
       Server: 'https://discord.gg/xN7mWvYxtv',
+      Website: 'https://novacorpcorporation.vercel.app',
       discord: 'https://discord.com/users/1149165064335675423'
     },
   ];
@@ -79,7 +80,7 @@ export default function Docs() {
               <img src={person.avatar} alt={person.name} className="credit-avatar" />
               <div className="credit-info">
                 <h3>{person.name}</h3>
-                <p>Developer</p>
+                <p>Developer and owner of Zyntra bot, also Head of administration/owner of novacorp project</p>
               </div>
               <div className="credit-actions">
                 <a href={person.github} target="_blank" rel="noreferrer" className="credit-btn discord">
