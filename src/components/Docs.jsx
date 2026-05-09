@@ -85,11 +85,15 @@ export default function Docs() {
               <div className="credit-actions">
                 <a href={person.github} target="_blank" rel="noreferrer" className="credit-btn discord">
                   <i className="fa-brands fa-discord"></i>
-                  Discord support
+                  discord support
                 </a>
                 <a href={person.discord} target="_blank" rel="noreferrer" className="credit-btn discord">
                   <i className="fa-brands fa-discord"></i>
                   Discord
+                </a>
+                  <a href={person.Website} target="_blank" rel="noreferrer" className="credit-btn Website">
+                  <i className="fa-brands fa-discord"></i>
+                  Website
                 </a>
               </div>
             </div>
